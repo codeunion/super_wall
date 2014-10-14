@@ -1,0 +1,19 @@
+#page {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.post-timestamp {
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+}
+
+/*<whatever class="field_with_errors">
+  <textarea>...</textarea>
+</whatever>*/
+
+.field_with_errors textarea,
+.field_with_errors input {
+  border: 2px solid red;
+}
